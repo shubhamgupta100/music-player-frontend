@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{background-color: #111528;
+}
+
+
+.header-container{
+	width: 100vw;
+	height:13vh; 
+	background-color:#111528;
+	position: fixed;
+	z-index:1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.header-container .header-container-box-1{
+    width: 50vw;
+	height:10vh; 
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header-container-box-1 .nav-item-1{
+
+    width: 35vw;
+	height:8vh; 
+	
+}
+.header-container-box-1 .nav-item-1 label{
+	position: relative;
+	top: -2vh;
+}
+.header-container-box-1 .nav-item-2{
+
+    width: 10vw;
+	height:10vh; 
+	
+}
+
+.header-container .header-container-box-2{
+    width: 40vw;
+	height:10vh; 
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.header-container-box-2 .nav-item-1{
+
+    width: 20vw;
+	height:4vh; 
+	
+}
+
+#form-inline input{
+	background-color: #eee;
+	width: 15vw;
+	height: 4vh;
+}
+
+#form-inline .fa-search{
+	position: relative;
+	left:2vw;
+	bottom: -.4vh;
+}
+#form-inline .fa-microphone{
+	position: relative;
+	right:2vw;
+	bottom: -.4vh;
+	
+}
+input::placeholder{
+	padding-left: 4vw;
+	font-weight: bold;
+	position: relative;
+	bottom: -.2vh;
+}
+.header-container-box-2 .nav-item-2{
+	 width: 3vw;
+	height:7vh; 
+	
+	
+}
+.nav-item-2 .fa-bell{
+font-size: 1.7rem;
+color: white;
+position: relative;
+top: 1vh;
+
+
+}
+.nav-item-2 img{
+	 width: 3vw;
+	height:6.5vh; 
+	
+}
+.header-container img{
+	border-radius: 50%;
+}
+
+
+
+/*common css*/
+a{
+	color: white!important;
+	text-decoration:none!important;
+}
+label{
+    color: white;
+    font-size: 2rem;	
+}
+p{
+	font-size: .6rem;
+	color: white;
+	font-weight: bold;
+}

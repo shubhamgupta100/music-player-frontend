@@ -1,0 +1,102 @@
+/*music bar*/
+.music-bar{
+  width: 100vw;
+  height: 15vh;
+  margin: auto;
+  background-color: black;
+  
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center; 
+  
+}
+.music-bar-box{
+  width: 20vw;
+  height:9vh;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+   align-items: center;
+}
+
+.music-bar #bar-box1 .grid1{
+    width: 4vw;
+  height:8vh;
+  
+}
+#bar-box1 .grid1 img{
+        width: 4vw;
+  height:8vh;
+}
+#bar-box1 .grid1 p{
+  color: white;
+  position: relative;
+  top: 2vh;
+}
+#bar-box1 .grid1 span{
+  color: gray;
+}
+.music-bar #bar-box1 .grid2{
+   width: 2vw;
+  height:4vh;
+  }
+
+.music-bar #bar-box2 .grid1{
+   width: 4vw;
+  height:8vh;  
+}
+.music-bar #bar-box2 .grid2{
+   width: 2vw;
+  height:4vh;
+ 
+}
+
+#bar-box2 .grid1 i{
+  font-size: 3.5rem!important;
+}
+
+
+.music-bar i{
+  font-size: 1.5rem;
+  color: #363636;
+}
+
+
+.music-bar-box1{
+  width: 60vw;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+ 
+}
+.music-bar-box1 .musictimer-1{
+  width: 2vw;
+  height:4vh;
+  position: relative;
+ 
+  
+
+}
+.music-bar-box1 #musictimer-2{
+  
+  width: 50vw;
+  height: .5vh;
+  background-color:  white;
+}
+
+.music-bar-box1 .musictimer-1 label{
+  line-height: 4vh;
+  color: white;
+}
+.music-bar-box1 #musictimer-2 i{
+  position: relative;
+  top: -1.2vh;
+  left: 10vw;
+  color: white;
+}

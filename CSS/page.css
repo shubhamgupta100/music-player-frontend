@@ -1,0 +1,341 @@
+/*content*/
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	position: relative;
+	top: 15vh;
+	margin-bottom: 10vh;
+}
+
+/*main section*/
+
+.main-section{
+	width:65vw;
+	height:79vh;
+	display:flex;
+	position: relative;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	left: -14vw;
+	top: 5vh;
+
+
+}
+/*biggest-box-1*/
+.biggest-box-1{
+     width: 65vw;
+	height: 30vh;
+	background-color:#252553;
+	opacity: .8;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	
+}
+.biggest-box-1 #biggest-box-1a{
+	width: 15vw;
+	height: 30vh;
+	
+}
+.biggest-box-1 #biggest-box-1a img{
+	width: 15vw;
+	height: 30vh;
+}
+.biggest-box-1 #biggest-box-1b{
+	width: 47vw;
+	height: 30vh;
+}
+#biggest-box-1b div{
+	width: 44vw;
+	height: 25vh;
+      margin:5vh 3vw 0 0vw;
+     
+}
+#biggest-box-1b div .color-define{
+	color: red;
+	font-weight: bolder;
+}
+#biggest-box-1b div h3{
+	margin-top: -1vh;
+}
+#biggest-box-1b div button{
+	background-image:linear-gradient(to bottom right,red, yellow);
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	width: 6vw;
+	
+}
+#biggest-box-1b div button:hover{
+	background-color: blue;
+}
+#biggest-box-1b div button:active{
+	background-color: red;
+}
+#biggest-box-1b>div>div{
+	position: relative;
+    top: -1vh;
+}
+#para-align{
+   position: relative;
+   top: -3vh;
+   font-size:.8rem!important;
+   color:black!important;
+}
+
+
+/*biggest-box-2*/
+.biggest-box-2{
+     width: 65vw;
+	height: 45vh;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.biggest-box-2>div{
+	  width: 65vw;
+	height: 10vh;
+	background-color:#181829;
+	box-shadow: 1px 1px 1px 1px white;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.biggest-box-2>div .small-box{
+	      width: 1vw;
+          height: 10vh;
+         
+}
+.biggest-box-2 .small-box h5{
+	color:white;
+	font-size: .8rem;
+	position: relative;
+	left: .5vw;
+	line-height: 10vh;
+
+}
+
+.biggest-box-2>div.big-box{
+	      width: 5vw;
+          height: 10vh;
+          
+}
+.biggest-box-2 .big-box img{
+	      width: 5vw;
+          height: 10vh;
+          background-position: center;
+          background-size: cover;
+
+}
+
+.biggest-box-2>div .biggest-box{
+	      width: 57vw;
+          height: 10vh;
+         
+}
+
+ .biggest-box-2 .biggest-box span{
+              color: gray!important;
+
+}
+.biggest-box-2 .biggest-box p{
+	padding-top:2.5vh; 
+	font-size: .8rem;
+}
+.biggest-box-2 .biggest-box i{
+	float: right;
+	color: white;
+position: relative;
+top: -3vh; 
+	padding-right:5vw;
+}
+
+/*aside section*/
+
+.aside-section{
+	width: 25vw;
+	height:79vh;
+	position:fixed;
+	right:3vw;
+	top: 20vh;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+
+/*aside-section-1*/
+#aside-section-1{
+     width: 25vw;
+	height: 38vh;
+	
+}
+#aside-section-1 #sectionitems1{
+	width: 25vw;
+	height:31vh;
+	position: relative;
+	display: flex;
+	
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#aside-section-1 #sectionitems1>div{
+    width: 25vw;
+	height:8vh;
+	display: flex;
+	
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#sectionitems1>div .small-box{
+	      width: 2vw;
+          height: 8vh;
+         
+}
+
+
+#sectionitems1>div .big-box{
+	      width: 4vw;
+          height: 8vh;
+          
+}
+#sectionitems1>div .big-box img{
+	      width: 4vw;
+          height: 8vh;
+          background-position: center;
+          background-size: cover;
+
+}
+
+#sectionitems1>div .biggest-box{
+	      width: 16vw;
+          height: 8vh;
+         
+}
+
+ #sectionitems1>div .biggest-box span{
+              color: gray!important;
+
+}
+#sectionitems1>div .biggest-box p{
+	position: relative;
+	top: 1.2vh;
+	font-size: 1rem;
+}
+
+
+
+/*aside-section-2*/
+#aside-section-2{
+	   width: 25vw;
+	height: 35vh;
+	
+}
+#aside-section-2 #sectionitems2{
+	width: 25vw;
+	height:28vh;
+	position: relative;
+	
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#aside-section-2 #sectionitems2>div{
+    width: 25vw;
+	height:5vh;
+	display: flex;
+	
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#sectionitems2>div .small-box{
+	      width: 1vw;
+          height: 5vh;
+         
+}
+#sectionitems2>div .small-box h5{
+	color:white;
+	font-size: .6rem;
+	position: relative;
+	left: .5vw;
+	line-height: 5vh;
+
+}
+
+#sectionitems2>div .big-box{
+	      width: 3vw;
+          height: 5vh;
+          
+}
+#sectionitems2>div .big-box img{
+	      width: 3vw;
+          height: 5vh;
+          background-position: center;
+          background-size: cover;
+
+}
+
+#sectionitems2>div .biggest-box{
+	      width: 19vw;
+          height: 5vh;
+         
+}
+
+ #sectionitems2>div .biggest-box span{
+              color: gray!important;
+
+}
+#sectionitems2>div .biggest-box p{
+	
+	font-size: 1rem;
+}
+#sectionitems2>div .biggest-box i{
+	float: right;
+	color: white;
+position: relative;
+top: -3.5vh; 
+	
+}
+
+
+/*nav-in aside section*/
+.aside-section nav{
+	width: 25vw;
+	height: 7vh;
+	
+}
+.aside-section nav .label1{
+	color: white!important;
+}
+.aside-section nav .label2{
+	float: right;
+	color: gray!important;
+	font-size: 1rem;
+	position: relative;
+	top: 2vh;
+}
+
+
+/*manage-section*/
+#manage-section{
+	position: fixed!important;
+	top:85vh;
+}
